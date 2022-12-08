@@ -1,7 +1,9 @@
 #include <stdio.h>
 
 /**
-*this program will print using the printf statement 
+* main - Entry point
+*
+* Return: Always 0 (Success) 
 */
 
 int main(void)
