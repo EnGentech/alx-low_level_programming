@@ -2,20 +2,22 @@
 
 /**
  * main - Entry point
- * Hex values
+ *
  * Return: Always 0 (Success)
  */
 
 int main(void)
 {
 int n, i;
-for (n = 0; n <= 9; n++)
+for (n = 0; n <= 8; n++)
 {
-for (i = 1; i <= 9; i++)
+for (i = n + 1; i <= 9; i++)
 {
 putchar((n % 10) + '0');
 putchar((i % 10) + '0');
-if (n == 8 && i == 9)
+if (n == i)
+continue;
+else if (n == 8 && i == 9)
 {
 break;
 }
