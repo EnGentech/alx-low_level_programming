@@ -18,5 +18,5 @@ continue;
 putchar(no_e_q);
 }
 putchar('\n');
-return 0;
+return (0);
 }
