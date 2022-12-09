@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  * Hex values
- * alx programming is deep
+ * Return: Always 0 (Success)
  */
 
 int main(void)
