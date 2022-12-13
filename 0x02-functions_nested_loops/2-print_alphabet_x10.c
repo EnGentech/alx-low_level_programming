@@ -9,12 +9,12 @@
 void print_alphabet_x10(void)
 {
 int count;
-char lalpha;
+int lalpha;
 for (count = 1; count <= 10; count++)
 {
 for (lalpha = 'a'; lalpha <= 'z'; lalpha++)
 {
-putchar(lalpha);
+_putchar(lalpha);
 }
 _putchar('\n');
 }
