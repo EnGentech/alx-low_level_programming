@@ -2,8 +2,7 @@
 
 /**
  * print_to_98 - print all natural numbers within n and 98
- *               
- * @n: The number to begin counting at.
+ * @n: the values decrement or increment depending on input
  */
 
 void print_to_98(int n)
