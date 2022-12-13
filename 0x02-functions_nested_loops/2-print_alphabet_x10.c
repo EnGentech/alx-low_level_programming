@@ -8,7 +8,7 @@
 
 void print_alphabet_x10(void)
 {
-int cnt;
+char cnt;
 char lalpha;
 for (cnt = 'a'; cnt <= 'j'; cnt++)
 {
