@@ -8,9 +8,9 @@
 
 void print_alphabet_x10(void)
 {
-int count;
-int lalpha;
-for (count = 1; count <= 10; count++)
+int cnt;
+char lalpha;
+for (cnt = 'a'; cnt <= 'j'; cnt++)
 {
 for (lalpha = 'a'; lalpha <= 'z'; lalpha++)
 {
