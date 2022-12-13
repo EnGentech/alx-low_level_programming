@@ -8,14 +8,16 @@
 
 void print_alphabet_x10(void)
 {
-char cnt;
-char lalpha;
-for (cnt = 'a'; cnt <= 'j'; cnt++)
-{
-for (lalpha = 'a'; lalpha <= 'z'; lalpha++)
-{
-_putchar(lalpha);
-}
-_putchar('\n');
-}
+int cnt;
+int lalpha;
+ cnt = 0;
+ while (cnt < 10)
+   {
+     for (lalpha = 'a'; lalpha <= 'z'; lalpha++)
+       {
+	 _putchar(lalpha);
+       }
+     cnt++;
+     _putchar('\n');
+   }
 }
