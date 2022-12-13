@@ -14,7 +14,7 @@ for (count = 1; count <= 10; count++)
 {
 for (lalpha = 'a'; lalpha <= 'z'; lalpha++)
 {
-_putchar(lalpha);
+putchar(lalpha);
 }
 _putchar('\n');
 }
