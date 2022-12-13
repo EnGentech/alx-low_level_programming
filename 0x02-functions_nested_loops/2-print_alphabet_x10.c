@@ -1,23 +1,22 @@
 #include "main.h"
 
 /**
- * print_alphabet_x10 - entry point
+ * 10 times a-z prototype - entry point
  *
- * return: Always 0 (Success)
+ * Return: Always 0 (Success)
  */
 
 void print_alphabet_x10(void)
 {
-int cnt;
-char lalpha;
- cnt = 0;
- while (cnt < 10)
-   {
-     for (lalpha = 'a'; lalpha <= 'z'; lalpha++)
-       {
-	 _putchar(lalpha);
-       }
-     cnt++;
-     _putchar('\n');
-   }
+  int i;
+  char j;
+  i = 1;
+  while i <= 10;
+  {
+    for (j = 'a'; j <= 'z'; j++)
+      {
+	_putchar(j);
+      }
+    _putchar(i);
+  }
 }
