@@ -13,7 +13,7 @@ numb = 0;
 
 while (numb <= 9)
 {
-_putchar(numb);
+_putchar(numb + '0');
 numb++;
 }
 _putchar('\n');
