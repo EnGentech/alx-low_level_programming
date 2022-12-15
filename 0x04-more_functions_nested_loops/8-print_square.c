@@ -12,8 +12,10 @@ int len, bred;
 if (size <= 0)
 _putchar('\n');
 for (len = 1; len <= size; len++)
+{
 for (bred = 1; bred <= size; bred++)
 _putchar('#');
 if ((bred = size))
 _putchar('\n');
+}
 }
