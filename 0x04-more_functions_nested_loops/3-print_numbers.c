@@ -14,6 +14,7 @@ numb = 0;
 while (numb <= 9)
 {
 _putchar(numb);
-numb++
+numb++;
 }
+_putchar('\n');
 }
