@@ -6,23 +6,17 @@
  *Return: Always 0 (Success)
  */
 
-int main(void)
+int main(int n)
 {
-  int i;
-  int j;
-  int k;
-  
-  for (i = 0; i <= 9; i++)
+  n = 7;
+  int line;
+  for (line = 1; line <= n; line++)
     {
-      for (j = 0; j <= 9; j++)
+      if (n <= 0)
 	{
-	  putchar(j + '0');
+	  putchar('\n');
 	}
-      for (k = 10; k <= 14; k++)
-	{
-	  putchar((k/10) + '0');
-	}
-
-  putchar('\n');
-}
+      else
+	putchar('_');
+    }
 }
