@@ -19,7 +19,7 @@ _putchar(' ');
 _putchar('\\');
 if (x == (n - 1))
 continue;
-_put('\n');
+_putchar('\n');
 }
 }
 _putchar('\n');
