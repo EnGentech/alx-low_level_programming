@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+/**
+ * print_number - entry point
+ * @n: print the same value
+ */
+
+int main(int n)
+{
+printf("%ld", n);
+return (0);
+}
