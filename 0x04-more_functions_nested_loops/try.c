@@ -9,11 +9,12 @@
 int main(void)
 {
 int num = 0;
-while (num <= 9)
+ for (num = 0; num <= 9; num++)
 {
-putchar(num + '0');
-num++;
-if (num == 2 || num == 4)
+ if ((num == 2) || (num == 4))
 continue;
+ putchar(num + '0');
+ 
 }
+ putchar('\n');
 }
