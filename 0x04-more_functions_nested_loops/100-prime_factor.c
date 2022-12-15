@@ -18,7 +18,7 @@ if (n % in == 0)
 n /= 2;
 continue;
 }
-for (in = 3; inc < n / 2; in += 2)
+for (in = 3; in < n / 2; in += 2)
 {
 if (n % in == 0)
 n /= in;
