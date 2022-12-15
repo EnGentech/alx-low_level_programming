@@ -1,20 +1,19 @@
 #include <stdio.h>
 
 /**
- * print_numbers - print numbers from 0 to 9 followed by a new line
+ *print_most_numbers - print numbers from 0 to 9 except 2 and 4
  *
- * Return: Always 0 (success)
+ *Return: Always 0 (Success)
  */
 
 int main(void)
 {
-int numb;
-numb = 0;
-
-while (numb <= 9)
+int num = 0;
+while (num <= 9)
 {
-putchar(numb + '0');
-numb++;
+putchar(num + '0');
+num++;
+if (num == 2 || num == 4)
+continue;
 }
-putchar('\n');
 }

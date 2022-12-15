@@ -16,4 +16,5 @@ num++;
 if (num == 2 || num == 4)
 continue;
 }
+_putchar('\n');
 }
