@@ -14,7 +14,7 @@ int main(int size)
     {
     for (bred = 1; bred <= size; bred++)
       putchar('#');
-  if (bred = size);
+    if ((bred == size));
   putchar('\n');
     }
   putchar('\n');
