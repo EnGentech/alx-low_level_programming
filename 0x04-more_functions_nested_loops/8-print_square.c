@@ -13,7 +13,7 @@ if (size <= 0)
 _putchar('\n');
 for (len = 1; len <= size; len++)
 _putchar('#');
-if (len = size)
+if ((len = size))
 _putchar('\n');
 for (bred = 1; bred <= size; bred++)
 _putchar('#');
