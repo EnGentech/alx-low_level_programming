@@ -13,7 +13,7 @@ if (size > 0)
 for (db = 1; db <= size; db++)
 
 {
-for ((dd = size - dd); dd > 0; dd--)
+for ((dd = size - db); dd > 0; dd--)
 _putchar(' ');
 
 for (dd = 0; dd < db; dd++)
