@@ -6,14 +6,18 @@
  *Return: Always 0 (Success)
  */
 
-int main(int n)
+int main(int size)
 {
-  n=4;
-  int l, b;
-  for (l = 1; l <= n; l++)
-    putchar('#');
-  if (l =n)
+  size=4;
+  int len, bred;
+  if (size <= 0)
     putchar('\n');
-  for  (b = 1; b <= n; b++)
+  for (len = 1; len <= size; len++)
     putchar('#');
+  if (len = size)
+    putchar('\n');
+  for (bred = 1; bred <= size; bred++)
+    putchar('#');
+
+putchar('\n');
 }
