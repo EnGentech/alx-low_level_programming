@@ -8,16 +8,14 @@
 
 int main(int size)
 {
-  size=4;
+  size=8;
   int len, bred;
-  if (size <= 0)
-    putchar('\n');
   for (len = 1; len <= size; len++)
-    putchar('#');
-  if (len = size)
-    putchar('\n');
-  for (bred = 1; bred <= size; bred++)
-    putchar('#');
-
-putchar('\n');
+    {
+    for (bred = 1; bred <= size; bred++)
+      putchar('#');
+  if (bred = size);
+  putchar('\n');
+    }
+  putchar('\n');
 }
