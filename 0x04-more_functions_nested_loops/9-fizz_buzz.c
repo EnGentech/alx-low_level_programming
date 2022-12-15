@@ -21,4 +21,5 @@ printf("Fizz ");
 else
 printf("%d ",numb);
 }
+putchar('\n');
 }
