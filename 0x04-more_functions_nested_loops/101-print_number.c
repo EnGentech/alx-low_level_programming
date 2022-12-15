@@ -18,5 +18,5 @@ if (val > 9)
 {
 print_number(val / 10);
 }
-_putchar(val % 10 + '0')
+_putchar(val % 10 + '0');
 }
