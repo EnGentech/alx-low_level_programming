@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdio.h>
+
 
 /**
  * print_number - entry point
@@ -8,5 +8,15 @@
 
 void print_number(int n)
 {
-printf("%ld", n);
+unsigned int val = n;
+if (n < 0)
+{
+_putchar('-');
+val = -val;
+}
+if (val > 9)
+{
+print_number(val / 10);
+}
+_putchar(val % 10 + '0')
 }
