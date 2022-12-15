@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+/**
+ * print_numbers - print numbers from 0 to 9 followed by a new line
+ *
+ * Return: Always 0 (success)
+ */
+
+int main(void)
+{
+int numb;
+numb = 0;
+
+while (numb <= 9)
+{
+putchar(numb + '0');
+numb++;
+}
+putchar('\n');
+}
