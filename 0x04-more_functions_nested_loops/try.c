@@ -1,4 +1,4 @@
-#include <stdio.h>
+include <stdio.h>
 
 /**
  *print_most_numbers - print numbers from 0 to 9 except 2 and 4
@@ -9,14 +9,10 @@
 int main(int n)
 {
   n = 7;
-  int line;
-  for (line = 1; line <= n; line++)
-    {
-      if (n <= 0)
-	{
-	  putchar('\n');
-	}
-      else
-	putchar('_');
-    }
+  int x, y;
+  for (x = 0; x <= n; x++)
+    putchar(' ');
+  if(x != n)
+    putchar('\\');
+  putchar('\n');
 }
