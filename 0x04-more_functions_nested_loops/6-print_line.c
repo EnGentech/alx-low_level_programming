@@ -12,7 +12,7 @@ int line = 1;
 for (line = 1; line <= n; line++)
 {
 if (n <= 0)
-_puthcar('\n');
+_putchar('\n');
 else
 _putchar('_');
 }
