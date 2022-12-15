@@ -20,7 +20,7 @@ int main(void)
 	}
       for (k = 10; k <= 14; k++)
 	{
-	  putchar((k/10) + '0');
+	  putchar(k + '0');
 	}
 
   putchar('\n');
