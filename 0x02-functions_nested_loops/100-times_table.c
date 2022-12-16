@@ -25,7 +25,7 @@ _putchar(' ');
 if (k >= 100)
 {
 _putchar((k / 100) + '0');
- _putchar(((k / 10) % 10) + '0');
+_putchar(((k / 10) % 10) + '0');
 }
 else if (k <= 99 && k >= 10)
 {
