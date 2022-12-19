@@ -10,6 +10,6 @@
 
 int main()
 {
-	printf("I need help here");
+	printf("Tada! Congrats");
 	return (0);
 }
