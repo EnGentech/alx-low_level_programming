@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
@@ -10,7 +11,7 @@ void print_array(int *a, int n)
 {
 	for (n = 0; a[n]; n++)
 	{
-		_putchar(a[n]);
+		printf("%d", a[n]);
 
 	_putchar(',');
 	_putchar(' ');
