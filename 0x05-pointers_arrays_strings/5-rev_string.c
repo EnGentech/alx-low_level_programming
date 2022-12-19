@@ -12,6 +12,7 @@ void rev_string(char *s)
 
 	for (i = 0; s[i]; i++)
 	{
+		_putchar(s[i]);
 		if (s[i] != '\0')
 			count += 1;
 		else
