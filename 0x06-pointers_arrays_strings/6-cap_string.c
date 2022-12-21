@@ -1,4 +1,4 @@
-#incude "main.h"
+#include "main.h"
 
 /**
  * cap_string - return all first letter of the word to capital letters
@@ -11,7 +11,7 @@ char *cap_string(char *x)
 	int count;
 
 	count = 0;
-	while (s[count] != '\0')
+	while (x[count] != '\0')
 	{
 		if (x[0] >= 97 && x[0] <= 122)
 		{
