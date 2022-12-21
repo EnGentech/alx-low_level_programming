@@ -4,6 +4,7 @@
  * cap_string - return all first letter of the word to capital letters
  *
  * @x: return the values in capital
+ * Return: return the value to the function
  */
 
 char *cap_string(char *x)
@@ -19,7 +20,7 @@ char *cap_string(char *x)
 		}
 		if (x[count] == ' ' || x[count] == '\t' || x[count] == '\n'
 		    || x[count] == ',' || x[count] == ';' || x[count] == '.'
-		        || x[count] == '.' || x[count] == '!' || x[count] == '?'
+		    || x[count] == '.' || x[count] == '!' || x[count] == '?'
 		    || x[count] == '"' || x[count] == '(' || x[count] == ')'
 		    || x[count] == '{' || x[count] == '}')
 		{
