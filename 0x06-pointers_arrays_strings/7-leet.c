@@ -10,7 +10,7 @@ char *leet(char *ch)
 	char x[] = "aAeEoOtTlL";
 	char y[] = "4433007711";
 
-	stringCount = 0;
+	xcnt = 0;
 	while (ch[xcnt] != '\0')
 
 	{
