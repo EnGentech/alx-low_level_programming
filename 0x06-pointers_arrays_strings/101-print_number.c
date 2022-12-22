@@ -15,11 +15,11 @@ void print_number(int n)
 	if (n < 0)
 	{
 		_putchar(45);
-		num = -n
-			}
-	if (pnb / 10)
-
-		print_number(pnb / 10);
-
-		_putchar((pnb % 10) + '0');
+		pnb = -n;
 	}
+	if (pnb / 10)
+	{
+		print_number(pnb / 10);
+	}
+		_putchar((pnb % 10) + '0');
+}
