@@ -9,5 +9,5 @@
 
 void print_number(int n)
 {
-	_putchar(n);
+	_putchar((n % 10) + '0');
 }
