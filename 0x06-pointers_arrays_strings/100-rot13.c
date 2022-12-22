@@ -11,7 +11,7 @@ char *rot13(char *rot)
 {
 	int i;
 
-	for (i = 0; rot[i] >= 65 && rot[i] <= 122; i++)
+	for (i = 0; rot[i] >= 65 && rot[i] <= 90; i++)
 	{
 		rot[i] = rot[i] + 13;
 		rot[i]++;
