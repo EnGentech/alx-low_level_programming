@@ -1,5 +1,11 @@
 #include <stdio.h>
 
+/**
+ * main - retun the value to the main
+ *
+ * Return: Always 0 (success)
+ */
+
 int main(void)
 {
 	int n;
