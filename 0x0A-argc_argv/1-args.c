@@ -4,13 +4,11 @@
  * main - return the number of argument
  * @argv: call the vector
  * @argc: count the number of argument passed to main
+ * Return: print the counts
  */
 
-int main(int argc, char argc[])
+int main(int argc, char *argv[] __attribute__((unused)))
 {
-	int i;
-
-	for (i = 0; i < argc; i++)
-		argc[i];
-	return (argc);
+	printf("%d\n", argc);
+	return (0);
 }
