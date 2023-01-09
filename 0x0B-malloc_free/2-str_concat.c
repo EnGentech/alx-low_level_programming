@@ -20,9 +20,6 @@ char *str_concat(char *s1, char *s2)
 	if (s2 == NULL)
 		return ("");
 
-	if (ptr == NULL)
-		return (NULL);
-
 	for (i = 0; s1[i] != '\0'; i++)
 		;
 
@@ -31,12 +28,15 @@ char *str_concat(char *s1, char *s2)
 
 	ptr = (char *)malloc((i + j + 1) * sizeof(char));
 
+	if (ptr == NULL)
+		return (NULL);
+
 	for (x = 0; s1[x] != '\0'; x++)
 		ptr[x] = s1[x];
 
 	for (y = 0; s2[y] <= '\0'; y++)
 	{
-		p[x] = s2[y];
+		ptr[x] = s2[y];
 		x++;
 	}
 	return (ptr);
