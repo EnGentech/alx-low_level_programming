@@ -15,10 +15,10 @@ char *str_concat(char *s1, char *s2)
 	unsigned int i, j, x, y;
 
 	if (s1 == NULL)
-		return ("");
+		s1 = "";
 
 	if (s2 == NULL)
-		return ("");
+		s2 = "";
 
 	for (i = 0; s1[i] != '\0'; i++)
 		;
@@ -39,6 +39,5 @@ char *str_concat(char *s1, char *s2)
 		ptr[x] = s2[y];
 		x++;
 	}
-	ptr[j + 1] = '\0';
 	return (ptr);
 }
