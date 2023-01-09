@@ -20,7 +20,7 @@ char *create_array(unsigned int size, char c)
 	for (i = 0; i < size; i++)
 	{
 		if (size == 0)
-			return (NULL);
+			return ("failed to allocate memory\n");
 	else
 		ptr[i] = c;
 	}
