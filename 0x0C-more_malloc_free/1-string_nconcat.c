@@ -13,7 +13,8 @@
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	char *ptr;
-	int i, j;
+	int i;
+	unsigned int j;
 
 	for (i = 0; s1[i] != '\0'; i++)
 		;
