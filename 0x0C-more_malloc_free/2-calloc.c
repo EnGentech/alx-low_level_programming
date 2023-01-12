@@ -9,7 +9,7 @@
  * Return: return the malloc pointer
  */
 
-void *_calloc(unsinged int nmemb, unsigned int size)
+void *_calloc(unsigned int nmemb, unsigned int size)
 {
 	unsinged int i, j;
 	char *ptr;
