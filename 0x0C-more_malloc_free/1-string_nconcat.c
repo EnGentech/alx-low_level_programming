@@ -13,20 +13,36 @@
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	char *ptr;
-	int i;
-	unsigned int j;
+	int i, k;
+	unsigned int j, count = 0;
 
 	for (i = 0; s1[i] != '\0'; i++)
 		;
-	ptr = (char *)malloc((n + i + 1) * sizeof(char));
+
+	for (k = 0; s2[k] != '\0'; k++)
+		count++;
+
+	ptr = (char *)malloc((k + i + 1) * sizeof(char));
 	if (ptr == NULL)
 		return ("");
 	for (i = 0; s1[i] != '\0'; i++)
 		ptr[i] = s1[i];
-	for (j = 0; j <= n; j++)
+
+	if (n < count)
+	{
+	for (j = 0; j < n; j++)
 	{
 		ptr[i] = s2[j];
 		i++;
+	}
+	}
+	else if (n >= count)
+	{
+		for (j = 0; j < n; j++)
+		{
+			ptr[i] = s2[j];
+			i++;
+		}
 	}
 	return (ptr);
 }
