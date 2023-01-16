@@ -15,4 +15,5 @@ struct dog
 	char *owner;
 };
 
+void *dog(struct dog dgg):
 #endif
