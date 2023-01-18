@@ -8,7 +8,7 @@
  * @size: take the size of size_t
  */
 
-void array_iterator(int *array, size_t size, (*action)(int))
+void array_iterator(int *array, size_t size, void (*action)(int))
 {
 	size_t i;
 
