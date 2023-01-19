@@ -1,3 +1,4 @@
+
 #include <stdio.h>
 #include "variadic_functions.h"
 
@@ -18,6 +19,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 	for (i = 0; i < n; i++)
 	{
 		char *s;
+
 		s = va_arg(albet, char *);
 		printf("%s", s);
 
