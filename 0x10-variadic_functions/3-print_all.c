@@ -9,7 +9,16 @@
 
 void print_all(const char * const format, ...)
 {
-	vwitch (format[i])
+	va_list vl;
+
+	char *string;
+	int i;
+
+	i = 0;
+	va_start(vl, format);
+	while (format != NULL && format[i] != '\n')
+	{
+	switch (format[i])
 	{
 		case 'i':
 			printf("%i", va_arg(vl, int));
