@@ -3,6 +3,13 @@
 #include <stdlib.h>
 #include <stdio.h>
 
+/**
+ * struct list_s - entry point for structure
+ *@str: point to the node
+ *@len: find out the length of the node
+ *@next: move the next node
+ */
+
 typedef struct list_s
 
 {
