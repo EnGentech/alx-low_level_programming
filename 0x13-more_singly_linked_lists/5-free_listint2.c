@@ -4,12 +4,15 @@
  * free_listint2 - free the head file with double pointer
  *
  * @head: clear the head and return to null
- * Description: set the head NULL
+ *
  */
 
 void free_listint2(listint_t **head)
 {
 	listint_t *tmp;
+
+	if (*head == NULL)
+		return;
 
 	while (*head != NULL)
 	{
