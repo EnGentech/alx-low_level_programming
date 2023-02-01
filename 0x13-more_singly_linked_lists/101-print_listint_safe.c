@@ -8,16 +8,13 @@
 
 size_t print_listint_safe(const listint_t *head)
 {
-	listint_t *tmp;
-	size_t i = 0;
+       	size_t i = 0;
 
-	tmp = head;
-
-	while (tmp != NULL)
+	while (head != NULL)
 	{
 		i++;
-		printf("[%lu] %d", &tmp, tmp->n);
-		tmp = tmp->next;
+		printf("[%p] %d",(void *)&head, head->n);
+		head = head->next;
 	}
 	return (i);
 }
