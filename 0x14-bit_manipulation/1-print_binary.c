@@ -16,11 +16,11 @@ void print_binary(unsigned long int n)
 
 		if (wise & 1)
 		{
-			_putchar('1');
+			putchar('1');
 			bit++;
 		}
 		else if (bit)
-			_putchar('0');
+			putchar('0');
 	}
 
 	if (!bit)
