@@ -3,7 +3,7 @@
 /**
  * set_bit - set a value to bit length
  * @index: get the index of bits
- * @n: bits 
+ * @n: bits
  * Return: return new bits
  */
 
