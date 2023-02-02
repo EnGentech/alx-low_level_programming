@@ -24,6 +24,6 @@ void print_binary(unsigned long int n)
 	}
 
 	if (!bit)
-		_putchar('0');
+		putchar('0');
 
 }
