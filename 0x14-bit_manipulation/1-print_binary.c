@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_binary
+ * print_binary - convert to binary
  * @n: get the decimal values
  */
 
