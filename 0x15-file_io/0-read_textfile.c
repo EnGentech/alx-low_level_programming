@@ -4,6 +4,7 @@
  * read_textfile - entry point to printing file content
  * @filename: point to the file in the memory
  * @letters: print these letters
+ * Return: return the values
  */
 
 ssize_t read_textfile(const char *filename, size_t letters)
