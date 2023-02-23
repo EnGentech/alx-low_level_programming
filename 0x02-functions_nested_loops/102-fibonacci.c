@@ -12,7 +12,7 @@ int main(void)
 	unsigned long fi = sum + j;
 	unsigned long new_fib = 0;
 
-	printf("1, 2, 3, 4, 5, ");
+	printf("1, 2, 3, 5, ");
 
 	for (fib = 5; fib <= 50; fib++)
 	{
