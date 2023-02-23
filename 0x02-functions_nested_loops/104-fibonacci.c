@@ -8,9 +8,9 @@
 int main(void)
 {
 	int i = 1, j = 2, fib;
-	unsigned long sum = i + j;
-	unsigned long fi = sum + j;
-	unsigned long new_fib = 0;
+	unsigned long long int sum = i + j;
+	unsigned long long int fi = sum + j;
+	unsigned long long int new_fib = 0;
 
 	printf("1, 2, 3, 5, ");
 
@@ -20,13 +20,13 @@ int main(void)
 		sum = fi;
 		fi = new_fib;
 
-		if (fib == 50)
+		if (fib == 98)
 		{
-			printf("%lu", new_fib);
+			printf("%llu", new_fib);
 		}
 		else
 		{
-			printf("%lu, ", new_fib);
+			printf("%llu, ", new_fib);
 		}
 	}
 	putchar('\n');
