@@ -21,9 +21,9 @@ int main(void)
 
 		if (new_fib % 2 == 0)
 		{
-			add += new_fib;
+			add_even += new_fib;
 		}
 	}
-	printf("%lu\n", add);
+	printf("%lu\n", add_even);
 	return (0);
 }
