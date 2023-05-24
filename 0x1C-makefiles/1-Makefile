@@ -1,6 +1,6 @@
-CC = gcc
+CC = gcc school.o main.o -o school
 SRC = *.c
 
 all: school.o main.o
-	$(CC) school.o main.o
+	$(CC)
 school.o main.o: $(SRC) m.h
