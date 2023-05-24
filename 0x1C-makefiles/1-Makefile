@@ -1,0 +1,6 @@
+CC = gcc school.o main.o
+SRC = *.c
+
+all: school.o main.o
+	$(CC)
+school.o main.o: $(SRC) m.h
