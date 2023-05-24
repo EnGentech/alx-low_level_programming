@@ -5,4 +5,3 @@ NAME = school
 
 all: $(OBJ)
 	$(CC) $(OBJ) -o $(NAME)
-$(OBJ): $(SRC) m.h
