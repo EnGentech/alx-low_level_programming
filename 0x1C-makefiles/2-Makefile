@@ -1,6 +1,6 @@
 CC = gcc
 SRC = main.c school.c
-OBJ = $(wildcard *.c)
+OBJ = $(wildcard *.o)
 NAME = school
 
 all: $(OBJ)
