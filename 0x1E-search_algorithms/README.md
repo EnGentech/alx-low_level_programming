@@ -1,0 +1,1 @@
+Algorightm in c
