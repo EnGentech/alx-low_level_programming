@@ -5,7 +5,7 @@
 * @array: this contains the elements pointing to index 0
 * @size: The size of the array is captured
 * @value: The specific element in question
-* @Return: return 0
+* Return: return 0
 */
 
 int binary_search(int *array, size_t size, int value)
