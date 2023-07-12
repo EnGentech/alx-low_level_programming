@@ -25,7 +25,7 @@ return (-1);
 }
 else
 {
-printf("Value checked array[%zu] = [%d]\n", i, array[i]);
+printf("Value checked array[%lu] = [%d]\n", i, array[i]);
 if (array[i] == value)
 {
 return (array[i]);
@@ -35,7 +35,7 @@ break;
 
 }
 }
-
+return (0);
 }
 
 /* Coded by EnGentech */
