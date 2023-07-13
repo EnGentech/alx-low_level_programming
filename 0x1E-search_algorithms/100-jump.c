@@ -39,7 +39,7 @@ break;
 printf("Value checked array[%lu] = [%d]\n", i, array[i]);
 if ((value > array[size - 1]) && (i == size - 1))
 {
-printf("Value found at indexes [%lu] and [%lu]\n",
+printf("Value found between indexes [%lu] and [%lu]\n",
 start - jmp_pos, end - jmp_pos);
 printf("Value checked array[%lu] = [%d]\n", i, array[i]);
 }
