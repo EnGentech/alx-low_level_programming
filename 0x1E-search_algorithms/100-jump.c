@@ -39,7 +39,7 @@ break;
 printf("Value checked array[%lu] = [%d]\n", i, array[i]);
 }
 
-return (0);
+return (-1);
 }
 
 /* Coded by EnGentech */
