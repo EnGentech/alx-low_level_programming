@@ -10,15 +10,21 @@
 
 int jump_search(int *array, size_t size, int value)
 {
+
+if (array == NULL || size == 0)
+return (-1);
+
 size_t jmp_pos, start, end, i, j;
 start = 0;
 jmp_pos = sqrt(size);
 end = jmp_pos;
+
 while (value > array[end])
 {
 start = end;
 end = end + jmp_pos;
 }
+
 for (i = 0; i < size; i += jmp_pos)
 {
 if (value <= array[i])
